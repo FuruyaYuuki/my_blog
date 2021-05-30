@@ -42,34 +42,51 @@ header {
 }
 
 main {
-  height: 837px;
   margin: 0;
 }
 
 .first-main {
-  position: relative;
-  background-color: rgba(255, 255, 255, 0.979);
-  height: 570px;
+  background-color: rgba(255, 255, 255, 0.473);
+  height: 700px;
 }
 
-.first-main img {
-  width: 760px;
-}
-
-.first-main p {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin-right: 30px;
-  color: rgb(0, 0, 0);
-  font-size:60px;
+.form {
   display: grid;
 
-  grid-template-columns: 600px;
+  grid-template-columns: 500px;
+  grid-template-rows: 100px 600px;
   justify-content: center;
   align-content: center;
   justify-items: center;
   align-items: center;
+}
+
+.form h1 {
+  justify-self: start;
+  align-self: start;
+}
+
+.form-contents {
+  justify-self: start;
+  align-self: start;
+  display: grid;
+
+  grid-template-columns: 600px;
+  grid-template-rows: 100px 100px 300px 100px;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.form-content {
+  justify-self: start;
+  align-self: start;
+}
+
+.form-content label {
+  float: left;
+  margin-bottom: 5px;
 }
 
 .second-main {
